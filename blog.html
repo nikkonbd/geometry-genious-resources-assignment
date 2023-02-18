@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- Link Tailwind Css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-3xl font-semibold text-center mt-8 underline uppercase">Assignments Blogs</h1>
+
+    <section class="px-20 mb-8">
+        <h1 class="text-2xl font-medium pb-2 pt-6">What is DOM and what is the purpose of DOM?</h1>
+        <p>The DOM is Document Object Model and it's a programming interface for web documents.It defines the logical
+            structure of documents and the way a document is accessed and manipulated. The DOM represents the document
+            as nodes and objects; that way, programming languages can interact with the page.
+            The DOM is a tree-like representation of the web page that gets loaded into the browser. <br> In website
+            development, DOM stands for Document Object Model. It is a programming interface that allows us to create,
+            change, or remove elements from a website document. DOM manipulation is when you use JavaScript to add,
+            remove, and modify elements of a website. It is very common in web development.
+        </p>
+
+        <h1 class="text-2xl font-medium pb-2 pt-6">How will you select HTML elements using DOM? Name the DOM methods.
+        </h1>
+        <p> The Select object in HTML DOM is used to represent an HTML <select> element. The <select> element can be
+                    created by using the document. createElement() method and it can be accessed using the
+                    getElementById(). The Document Object Model (DOM) is a programming interface for web documents. It
+                    represents the page so that programs can change the document structure, style, and content. The DOM
+                    represents the document as nodes and objects; that way, programming languages can interact with the
+                    page.<br> <br> There are 5 ways in which you can select elements in a DOM using
+                    selectors.
+                    <br>
+                    1. getElementsByTagName() Method. <br>
+                    2. getElementsByClassName() Method. <br>
+                    3. getElementById() Method. <br>
+                    4. querySelector() Method. <br>
+                    5. querySelectorAll() Method.</p>
+
+        <h2 class="text-2xl font-medium pb-2 pt-6">What is event bubble?</h2>
+        <p>What is Event Bubbling? Event Bubbling is a concept in the DOM (Document Object Model). It happens when an
+            element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its
+            parent and ancestor elements in the DOM tree until it gets to the root element. The major use of event
+            bubbling is the registration of default functions present in the program. In recent times, not many
+            developers use event capturing or bubbling in particular. Event bubbling is a type of DOM event propagation
+            where the event first triggers on the innermost target element, and then successively triggers on the
+            ancestors of the target element in the same nesting hierarchy till it reaches the outermost DOM element or
+            document object.</p>
+
+        <h2 class="text-2xl font-medium pb-2 pt-6">What is a callback function and why will you use it?</h2>
+        <p>A callback function is a function passed into another function as an argument, which is then invoked inside
+            the outer function to complete some kind of routine or action. The above example is a synchronous callback,
+            as it is executed immediately. When you want one function to execute only after another function has
+            completed its execution, we use callback functions in JavaScript. It needs to pass as a parameter to other
+            functions to make a function callback. A callback function is a function passed into another function as an
+            argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
+    </section>
+
+</body>
+
+</html>
