@@ -141,15 +141,12 @@ document.getElementById('card6-button').addEventListener('click', function () {
     cardValueId(CardTitleSix, totalSixSum);
 });
 
+// Blog JS
+document.getElementById('blog-btn').addEventListener('click', function () {
+    window.location.href = 'blog.html';
+});
+
 // Hover Section
-
-// const hoverCard = document.querySelector('hover-card');
-
-// hoverCard.mouseOver = () => {
-//     hoverCard.style.backgroundColor = `
-//     #${Math.floor(Math.random() * 0xffffff).toString(16)}
-//     `
-// }
 
 function randomColor() {
     let color = [];
@@ -159,30 +156,101 @@ function randomColor() {
     return 'rgb(' + color.join(', ') + ')';
 }
 
-document.addEventListener("mouseover", function () {
-    document.body.style.backgroundColor = randomColor();
+document.getElementById('hover-card6').addEventListener("mouseover", function () {
+    document.getElementById('hover-card6').style.backgroundColor = randomColor();
 });
 
-document.querySelector('card').addEventListener('mouseover', event => {
+document.getElementById('hover-card6').addEventListener('mouseover', event => {
+    event.target.style.fill = randomColor();
+});
+// Hover 5
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+}
+
+document.getElementById('hover-card5').addEventListener("mouseover", function () {
+    document.getElementById('hover-card5').style.backgroundColor = randomColor();
+});
+
+document.getElementById('hover-card5').addEventListener('mouseover', event => {
     event.target.style.fill = randomColor();
 });
 
-// function randomColor() {
-//     let color = [];
-//     for (let i = 0; i < 3; i++) {
-//         color.push(Math.floor(Math.random() * 256));
-//     }
-//     return 'rgb(' + color.join(', ') + ')';
-// }
+// Hover 4
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+}
 
-// document.querySelector('card').addEventListener('mouseover', event => {
-//     event.target.style.fill = randomColor();
-// });
-
-
-// Blog JS
-
-document.getElementById('blog-btn').addEventListener('click', function () {
-    window.location.href = 'blog.html';
+document.getElementById('hover-card4').addEventListener("mouseover", function () {
+    document.getElementById('hover-card4').style.backgroundColor = randomColor();
 });
+
+document.getElementById('hover-card4').addEventListener('mouseover', event => {
+    event.target.style.fill = randomColor();
+});
+
+// Hover 3
+
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+}
+
+document.getElementById('hover-card3').addEventListener("mouseover", function () {
+    document.getElementById('hover-card3').style.backgroundColor = randomColor();
+});
+
+document.getElementById('hover-card3').addEventListener('mouseover', event => {
+    event.target.style.fill = randomColor();
+});
+
+// Hover 2
+
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+}
+
+document.getElementById('hover-card2').addEventListener("mouseover", function () {
+    document.getElementById('hover-card2').style.backgroundColor = randomColor();
+});
+
+document.getElementById('hover-card2').addEventListener('mouseover', event => {
+    event.target.style.fill = randomColor();
+});
+
+// Hover 1
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+}
+
+document.getElementById('hover-card1').addEventListener("mouseover", function () {
+    document.getElementById('hover-card1').style.backgroundColor = randomColor();
+});
+
+document.getElementById('hover-card1').addEventListener('mouseover', event => {
+    event.target.style.fill = randomColor();
+});
+
+
+
+
 
